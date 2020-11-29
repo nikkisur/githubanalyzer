@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
 
 public class GitAnalyzerService {
 
-    private final String TOKEN = "3481a5ab6b28e936451f30b5ef27fa0ce0b60e35";
+    private final String TOKEN = "a360052cb07d371c3a8d210c7f4f1fc50d7b8e2b";
     private final Logger LOGGER = Logger.getLogger("Surtida-Git-Analyzer");
 
     public List<RepositoryDto> searchGitRepositories(String searchCategory, String searchKey){
